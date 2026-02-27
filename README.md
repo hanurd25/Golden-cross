@@ -1,7 +1,7 @@
 # Golden-cross
 Golden cross pattern recognition in R programming.
 
-Using 50 and 200 moving average to achive this:
+Using 50 and 200 day (simple) moving average to achive this:
 ``` R
 sma50 <- SMA(closes, n = 50)
 sma200 <- SMA(closes, n = 200)
