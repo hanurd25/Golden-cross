@@ -3,6 +3,7 @@ library(ggplot2)
 ticker <- "APPL"
 
 # Data collection for the last year or 365 days
+days <- 365 #days
 getSymbols(ticker, from = Sys.Date() - 365*1, auto.assign = TRUE)
 
 closes <- Cl(A)
